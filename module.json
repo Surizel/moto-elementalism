@@ -1,0 +1,44 @@
+{   
+   "name": "moto-elementalism",   
+   "title": "Museum of the Obscure - Elementalism",   
+   "description": "A collection of elemental-themed items for Dungeons and Dragons 5E",   
+   "author": "Surizel",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.9.0",
+
+"dependencies": [
+{
+	"name": "compendium-folders",
+	"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json"
+}
+],
+
+"styles": [
+"styles.css"
+],
+
+   "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/Items.db",
+      "entity": "Item",
+      "module": "Surizel's Enchiridion Obscura"
+    },
+    {
+      "name": "journalentries",
+      "label": "Journal Entries",
+      "path": "packs/journalentries.db",
+      "entity": "JournalEntry",
+      "module": "Surizel's Enchiridion Obscura"
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells.db",
+      "entity": "Item",
+      "module": "Surizel's Enchiridion Obscura"
+    }
+  ]
+ }
